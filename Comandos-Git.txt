@@ -1,60 +1,60 @@
-GIT Comandos
+## GIT Comandos
 
 Link para baixar o git
 git-scm.com
 
 Iniciar um novo projeto com git
-git init
+    ` git init `
 
 Add os arquivos que estão prontos para serem commitados
-git add <nome-arquivo>/ ou .
+    ` git add <nome-arquivo>/ ` ou `.`
 
 Commit os arquivos no histórico
-git commit -m "<Sua mensagem de commit>"
+    ` git commit -m "<Sua mensagem de commit>" `
 
 Mostrar todos os commits
-git log
+    ` git log `
 
 Mostrar o que foi alterado na ramificação
-git diff
+    ` git diff `
 
 Criar uma nova branch a partir da branch atual
-git branch -b <nome-da-nova-branch>
+    ` git branch -b <nome-da-nova-branch> `
 
 listar todas as brachs e mostrar a branch atual
 
 Mudar para essa branch
-git checkout <nome-branch>
+    ` git checkout <nome-branch> `
 
 Merge d ramificação (mascla a ramificação)
-git Merge
+    ` git Merge `
 
 Configurar o usuario do Github
-git config --global user.name "<seu-nome>"
+    ` git config --global user.name "<seu-nome>" `
 
 Configurar o email do Github
-git config --global user.email "<seu-email-cadastradi-n0@git.com
+    ` git config --global user.email "<seu-email-cadastradi-n0@git.com>" `
 
 Mostrar todas as configuraçoes já feitas
-git config --global --list
+    ` git config --global --list `
 
 Mostrar configuraçoes que podemos fazer
-git config --list
+    ` git config --list `
 
 Enviar nossas alterações locais para o repositório remoto
-git push
-git push origin <nome-da-branch>
+    ` git push `
+    ` git push origin <nome-da-branch> `
 
 Pegar alterações do repositório remoto e jogar para nossa maquina
-git pull
-git pull origin <nome-da-branch>
+    ` git pull `
+    ` git pull origin <nome-da-branch> `
 
 atualizar nosso historico local de acordo com o historico salvo no repositóriio remoto
-git fetch
+    ` git fetch `
 
 Copiar ou Clonar um repositório
-git clone <url-do-reposiorio>
+    ` git clone <url-do-reposiorio> `
 
-Voltar para o aarquivo original e modificar a alterações feitas
-git restore
+Voltar para o arquivo original e modificar a alterações feitas
+    ` git restore `
 

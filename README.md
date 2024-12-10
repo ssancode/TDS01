@@ -78,6 +78,7 @@ ou pode ser 3 asteriscos
 - [ ] Item 3
 
 
+
 ## Tabela
 
 Centralizado a Esquerda
@@ -135,4 +136,3 @@ Print("a soma é {soma}")
 :cat:
 :frog:
 :mouse:
-:panda:
